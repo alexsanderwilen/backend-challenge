@@ -8,5 +8,6 @@ public class InvilliaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(InvilliaApplication.class, args);
+
 	}
 }

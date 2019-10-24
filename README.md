@@ -51,3 +51,60 @@ scalability.
 * Security
 * Swagger
 * Clean Code
+
+
+
+
+## Desafio de recrutamento da Invillia
+
+[! [Status da compilação] (https://travis-ci.org/shelsonjava/invillia.svg?branch=master)] (https://travis-ci.org/shelsonjava/invillia)
+
+! [Logotipo da Invillia] (https://invillia.com/public/assets/img/logo-invillia.svg)
+[Invillia] (https: // https: //www.invillia.com/) - A transformação começa aqui.
+
+A empresa ACME está migrando o sistema monolítico para uma arquitetura de microsserviço e você é responsável por criar o MVP (produto mínimo viável).
+https://en.wikipedia.org/wiki/Minimum_viable_product
+
+Seu desafio é:
+Crie um aplicativo com os recursos descritos abaixo. Se você acha que os requisitos não são detalhados o suficiente, deixe um comentário (português ou inglês) e proceda da melhor maneira possível.
+
+Você pode escolher quantos recursos achar necessários para o MVP, NÃO é necessário criar todos os recursos, recomendamos enfatizar a qualidade sobre a quantidade, e você será avaliado pela qualidade da sua solução.
+
+Se você acha que algo é realmente necessário, mas não tem tempo suficiente para implementá-lo, pelo menos explique como o implementaria.
+
+## Tarefas
+
+Sua tarefa é desenvolver um (ou mais, sinta-se à vontade) serviços RESTful para:
+* Crie uma ** loja **
+* Atualize as informações da ** Store **
+* Recuperar um ** Store ** pelos parâmetros
+* Crie um ** Pedido ** com itens
+* Crie um ** Pagamento ** para um ** Pedido **
+* Recuperar um ** Pedido ** pelos parâmetros
+* Reembolso ** Pedido ** ou qualquer ** Item do Pedido **
+
+Bifurque este repositório e envie seu código com confirmações parciais.
+
+## Regras do negócio
+
+* A ** Store ** é composta por nome e endereço
+* Um ** Pedido ** é composto por endereço, data de confirmação e status
+* Um ** Item de Pedido ** é composto por descrição, preço unitário e quantidade.
+* A ** Pagamento ** é composto por status, número do cartão de crédito e data do pagamento
+* Um ** Pedido ** só deve ser reembolsado até dez dias após a confirmação e o pagamento for concluído.
+
+## Requisitos não Funcionais
+
+Seus serviços devem ser resilientes, tolerantes a falhas e responsivos. Você deve prepará-los para serem altamente escaláveis ​​possível.
+
+O processo deve ser o mais próximo possível do "tempo real", equilibrando suas escolhas para atingir o esperado
+escalabilidade.
+
+## É bom ter recursos (descrever ou implementar):
+* Processamento assíncrono
+* Base de dados
+* Docker
+* AWS
+* Segurança
+* Swagger
+* Código Limpo
